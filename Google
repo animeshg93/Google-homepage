@@ -1,0 +1,98 @@
+	<!DOCTYPE <!DOCTYPE html>
+	<html>
+	<head>
+		<title>Google</title>
+		<style>
+		img.logo{
+			display: block;
+			padding: 10	px;
+			border: none;
+			margin: 20px;
+			clear:none;
+			height: 100px;
+			width: 300px;
+		}
+		ul{
+			list-style-type: none;
+			margin-right: 12px;
+		}
+		li{
+			float: right;
+			padding: 2px;
+		}
+		a{
+			color: ;
+			display: block;
+			margin: 10px; 
+			font-family: sans-serif;
+			font-size: 85%;
+			text-decoration: none;
+		}
+		a:link, a:visited{
+			color: black;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		img.apps{		
+			height: 20px;
+		}
+		button.btn{ 
+			font-weight: bold;
+			padding: 3px;
+		}
+		.wrapper{
+			min-height: 95%;
+			
+			/*height: 100%;*/
+
+		}
+		.footer{
+			height: 1em;
+		}
+		ul.bottom{
+			text-decoration: none;
+			list-style-type: none;
+			display: inline;
+			text-align: left;
+		}
+		</style>
+	</head>
+	<body>
+
+	<div class="wrapper">
+	<ul>
+		<li><a href="#"><img class="apps" src="http://riit.smeal.psu.edu/images/accounts-access-logo/@@images/4f186019-104a-41e1-9f17-4337db5da2ff.png"></a></li>
+		<li><a href="#"><img class="apps" src="https://lh3.googleusercontent.com/-2r7nkB71SpM/AAAAAAAAAAI/AAAAAAAA4U8/i9NT3dAhvI0/photo.jpg"></a></li>
+		<li><a href="#"><img class="apps" src="http://medicusmeet.com/images/alert.png"></a></li>
+		<li><a href="#"><img class="apps" src="http://clicksidemedia.com/dito/wp-content/uploads/2014/12/apps_for_work_256-color.png"></a></li>
+		<li><a href="#">Images</a></li>
+		<li><a href="#">Gmail</a></li>
+		<li><a href="#">You+</a></li>
+	</ul>
+
+	<br><br><br><br><br><br><br><br><br>
+
+	<div id="logo" align="center">
+		<img class="logo" src="http://upload.wikimedia.org/wikipedia/commons/3/30/Googlelogo.png" alt="Google logo">
+		<div id="search" align="center">
+			<textarea style="overflow:hidden; resize:none; height:30px" cols="68"></textarea>
+		</div>
+	</div>
+
+	<pre align="center"><button class="btn" type="button">Google Search</button>  <button class="btn" type="button">I'm Feeling Lucky</button></pre>
+	</div>
+
+	<div class="footer">
+		<ul class="bottom">
+			<li><a href="#">Advertising</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Settings</a></li>
+		</ul>	
+	</div>
+
+	</body>
+	</html>
